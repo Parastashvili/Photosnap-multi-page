@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Css/reset.css" />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./Assets/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Photosnap - Home</title>
+  </head>
+  <body>
+    <header>
+      <div id="nav_bar" class="header_wrapper">
+        <div class="site_logo">
+          <a href="./index.html"
+            ><img src="./Assets/shared/desktop/logo.svg" alt="site logo"
+          /></a>
+        </div>
+        <div class="centred_items">
+          <label>
+            <input type="checkbox" id="checkbox" />
+            <span class="menu" id="hamburger">
+              <span class="hamburger"></span>
+            </span>
+            <ul class="burger_list">
+              <li><a class="hover_op" href="./stories.html">STORIES</a></li>
+              <li><a class="hover_op" href="./features.html">FEATURES</a></li>
+              <li><a class="hover_op" href="./pricing.html">PRICING</a></li>
+              <li class="divider"></li>
+              <li>
+                <a class="invite centred_items" href="./index.html"
+                  >GET AN INVITE</a
+                >
+              </li>
+            </ul>
+          </label>
+        </div>
+        <div class="classic_navbar">
+          <div class="nav_bar_flex">
+            <a class="classic_navbar_t" href="./stories.html">STORIES</a>
+            <a class="classic_navbar_t" href="./features.html">FEATURES</a>
+            <a class="classic_navbar_t" href="./pricing.html">PRICING</a>
+          </div>
+          <a class="classic_navbar_invite" href="./index.html">GET AN INVITE</a>
+        </div>
+      </div>
+    </header>
+    <button id="fixed-button" class="bob_effect" onclick="scrollUp()">
+      <img src="./Assets/mouse-cursor.png" alt="" />
+    </button>
+    <section>
+      <div class="create_and_share">
+        <div class="image_container">
+          <img
+            class="image_container mobile_images"
+            src="./Assets/home/mobile/create-and-share.jpg"
+            alt="Creat and share image"
+          />
+          <img
+            class="image_container tablet_images"
+            src="./Assets/home/desktop/create-and-share.jpg"
+            alt="Creat and share image"
+          />
+          <img
+            class="image_container desktop_images"
+            src="./Assets/home/desktop/create-and-share.jpg"
+            alt="Creat and share image"
+          />
+        </div>
+        <div class="content_container first_container">
+          <div id="colorful_divider_left"></div>
+          <div class="content_childF">
+            <div id="colorful_divider"></div>
+            <div class="content_max_width">
+              <h1 class="firstH">Create and share your photo stories.</h1>
+              <p class="firstP">
+                Photosnap is a platform for photographers and visual
+                storytellers. We make it easy to share photos, tell stories and
+                connect with others.
+              </p>
+              <div class="invite_arrow">
+                <h4 class="firstInvite hover-underline-animation">
+                  GET AN INVITE
+                </h4>
+                <img
+                  class="arrow_container"
+                  src="./Assets/shared/desktop/arrow-white.svg"
+                  alt="white arrow"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="beautiful_stories">
+        <div class="image_container">
+          <img
+            class="image_container mobile_images"
+            src="./Assets/home/mobile/beautiful-stories.jpg"
+            alt="Creat and share image"
+          />
+          <img
+            class="image_container tablet_images"
+            src="./Assets/home/desktop/beautiful-stories.jpg"
+            alt="Creat and share image"
+          />
+          <img
+            class="image_container desktop_images"
+            src="./Assets/home/desktop/beautiful-stories.jpg"
+            alt="Creat and share image"
+          />
+        </div>
+        <div class="content_container">
+          <div class="content_child">
+            <h1 class="content_headerTxt">
+              BEAUTIFUL STORIES <br />
+              EVERY TIME
+            </h1>
+            <p class="content_ParagrapTxt">
+              We provide design templates to ensure your stories look terrific.
+              Easily add photos, text, embed maps and media from other networks.
+              Then share your story with everyone.
+            </p>
+            <div class="invite_arrow">
+              <h4 class="content_invite hover-underline-animation black">
+                VIEW THE STORIES
+              </h4>
+              <img
+                class="arrow_container"
+                src="./Assets/shared/desktop/arrow-black.svg"
+                alt="black arrow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="designed_for_everyone">
+        <div class="image_container">
+          <img
+            class="image_container mobile_images"
+            src="./Assets/home/mobile/designed-for-everyone.jpg"
+            alt="Creat and share image"
+          />
+          <img
+            class="image_container tablet_images"
+            src="./Assets/home/desktop/designed-for-everyone.jpg"
+            alt="Creat and share image"
+          />
+          <img
+            class="image_container desktop_images"
+            src="./Assets/home/desktop/designed-for-everyone.jpg"
+            alt="Creat and share image"
+          />
+        </div>
+        <div class="content_container">
+          <div class="content_child">
+            <h1 class="content_headerTxt">DESIGNED FOR EVERYONE</h1>
+            <p class="content_ParagrapTxt">
+              Photosnap can help you create stories that resonate with your
+              audience. Our tool is designed for photographers of all levels,
+              brands, businesses you name it.
+            </p>
+            <div class="invite_arrow">
+              <h4 class="content_invite hover-underline-animation black">
+                VIEW THE STORIES
+              </h4>
+              <img
+                class="arrow_container"
+                src="./Assets/shared/desktop/arrow-black.svg"
+                alt="black arrow"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <div>
+          <div class="tablet_view">
+            <div class="image_container_popup">
+              <img
+                class="image_container image_up"
+                src="./Assets/stories/mobile/mountains.jpg"
+                alt="mountains image"
+              />
+              <div class="blur_effect image_up"></div>
+              <div class="galery_textcontent">
+                <div class="galery_textcontent_inner">
+                  <div>
+                    <h5 class="galeryH">The Mountains</h5>
+                    <p class="galeryP">by John Appleseed</p>
+                  </div>
+                  <div class="galery_divider"></div>
+                  <div class="galery_flex">
+                    <h6 class="galeryh6 hover-underline-animation">
+                      READ STORY
+                    </h6>
+                    <img
+                      class="arrow_container"
+                      src="./Assets/shared/desktop/arrow-white.svg"
+                      alt="white arrow"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="image_container_popup">
+              <img
+                class="image_container image_up"
+                src="./Assets/stories/mobile/cityscapes.jpg"
+                alt="cityscapes image"
+              />
+              <div class="blur_effect image_up"></div>
+              <div class="galery_textcontent">
+                <div class="galery_textcontent_inner">
+                  <div>
+                    <h5 class="galeryH">Sunset Cityscapes</h5>
+                    <p class="galeryP">by Benjamin Cruz</p>
+                  </div>
+                  <div class="galery_divider"></div>
+                  <div class="galery_flex">
+                    <h6 class="galeryh6 hover-underline-animation">
+                      READ STORY
+                    </h6>
+                    <img
+                      class="arrow_container"
+                      src="./Assets/shared/desktop/arrow-white.svg"
+                      alt="white arrow"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="image_container_popup">
+              <img
+                class="image_container image_up"
+                src="./Assets/stories/mobile/18-days-voyage.jpg"
+                alt="18 daysvoyage image"
+              />
+              <div class="blur_effect image_up"></div>
+              <div class="galery_textcontent">
+                <div class="galery_textcontent_inner">
+                  <div>
+                    <h5 class="galeryH">18 Days Voyage</h5>
+                    <p class="galeryP">by Alexei Borodin</p>
+                  </div>
+                  <div class="galery_divider"></div>
+                  <div class="galery_flex">
+                    <h6 class="galeryh6 hover-underline-animation">
+                      READ STORY
+                    </h6>
+                    <img
+                      class="arrow_container"
+                      src="./Assets/shared/desktop/arrow-white.svg"
+                      alt="white arrow"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="image_container_popup">
+              <img
+                class="image_container image_up"
+                src="./Assets/stories/mobile/architecturals.jpg"
+                alt="architecturals image"
+              />
+              <div class="blur_effect image_up"></div>
+              <div class="galery_textcontent">
+                <div class="galery_textcontent_inner">
+                  <div>
+                    <h5 class="galeryH">Architecturals</h5>
+                    <p class="galeryP">by Samantha Brooke</p>
+                  </div>
+                  <div class="galery_divider"></div>
+                  <div class="galery_flex">
+                    <h6 class="galeryh6 hover-underline-animation">
+                      READ STORY
+                    </h6>
+                    <img
+                      class="arrow_container"
+                      src="./Assets/shared/desktop/arrow-white.svg"
+                      alt="white arrow"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <div class="lower_div">
+          <div class="centred_items_second">
+            <img
+              src="./Assets/features/desktop/responsive.svg"
+              alt="responsive logo"
+            />
+            <h6 class="lowerH">100% Responsive</h6>
+            <p class="lowerP">
+              No matter which the device you’re on, our site is fully responsive
+              and stories look beautiful on any screen.
+            </p>
+          </div>
+          <div class="centred_items_second">
+            <img
+              src="./Assets/features/desktop/no-limit.svg"
+              alt="no limit logo"
+            />
+            <h6 class="lowerH lowerHx2">No Photo Upload Limit</h6>
+            <p class="lowerP">
+              Our tool has no limits on uploads or bandwidth. Freely upload in
+              bulk and share all of your stories in one go.
+            </p>
+          </div>
+          <div class="centred_items_second">
+            <img src="./Assets/features/desktop/embed.svg" alt="embed logo" />
+            <h6 class="lowerH">Available to Embed</h6>
+            <p class="lowerP lowerHx3">
+              Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
+              videos, Google Maps, and more.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="site_bottom centred_items">
+      <div class="footer_inner">
+        <div class="footer_tablet1">
+          <a href="./index.html"
+            ><img
+              class="item1"
+              src="./Assets/shared/desktop/logo-white.svg"
+              alt="potosnap logo"
+          /></a>
+          <div class="footer_contact item2">
+            <div class="flip-container">
+              <div class="flipper">
+                <div class="front">
+                  <img src="./Assets/contact/white-FB.svg" alt="Image 1" />
+                </div>
+                <div class="back">
+                  <img src="./Assets/contact/facebook.svg" alt="Image 2" />
+                </div>
+              </div>
+            </div>
+            <div class="flip-container">
+              <div class="flipper">
+                <div class="front">
+                  <img src="./Assets/contact/white-YT.svg" alt="Image 1" />
+                </div>
+                <div class="back">
+                  <img src="./Assets/contact/youtube.svg" alt="Image 2" />
+                </div>
+              </div>
+            </div>
+            <div class="flip-container">
+              <div class="flipper">
+                <div class="front">
+                  <img src="./Assets/contact/white-Tw.svg" alt="Image 1" />
+                </div>
+                <div class="back">
+                  <img src="./Assets/contact/twitter.svg" alt="Image 2" />
+                </div>
+              </div>
+            </div>
+            <div class="flip-container">
+              <div class="flipper">
+                <div class="front">
+                  <img src="./Assets/contact/white-Pin.svg" alt="Image 1" />
+                </div>
+                <div class="back">
+                  <img src="./Assets/contact/pinterest.svg" alt="Image 2" />
+                </div>
+              </div>
+            </div>
+            <div class="flip-container">
+              <div class="flipper">
+                <div class="front">
+                  <img src="./Assets/contact/white-Insta.svg" alt="Image 1" />
+                </div>
+                <div class="back">
+                  <img src="./Assets/contact/instagram.svg" alt="Image 2" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_nav item3">
+            <a class="footer_nav_p" href="./index.html">Home</a>
+            <a class="footer_nav_p" href="./stories.html">Stories</a>
+            <a class="footer_nav_p" href="./features.html">Features</a>
+            <a class="footer_nav_p" href="./pricing.html">Pricing</a>
+          </div>
+        </div>
+        <div class="footer_tablet2">
+          <div class="invite_arrow">
+            <h4 class="firstInvite hover-underline-animation">GET AN INVITE</h4>
+            <img
+              class="arrow_container"
+              src="./Assets/shared/desktop/arrow-white.svg"
+              alt="white arrow"
+            />
+          </div>
+          <p class="all_rights">Copyright 2019. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./Javascript/script.js"></script>
+  </body>
+</html>
